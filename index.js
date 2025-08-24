@@ -27,7 +27,7 @@ client.on('ready', async () => {
   }
 
   function loop() {
-    const delay = Math.floor(Math.random() * (10800000 - 7200000 + 1)) + 7200000; // 2h-3h en ms
+    const delay = Math.floor(Math.random() * (10800000 - 7200000 + 1)) + 7200000;
     console.log(`⏳ Prochain bump dans ~${Math.round(delay / 3600000)} heures.`);
 
     setTimeout(() => {
