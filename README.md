@@ -37,13 +37,13 @@ Un bot simple qui envoie automatiquement des `/bump` sur [Disboard](https://disb
 
 ## 🔑 Comment obtenir le token ?
 
-1. Ouvre Discord dans ton navigateur.
-2. Appuie sur `F12`
-3. Va dans l'onglet Application -> Local storage -> https://discord.com
-4. Va dans `Filter` et entre `token`
-5. Active device toolbar `l'icon tablette/telephone` ou `Ctrl + Shift + M`
-6. Recharge la page `F5`
-7. Copie la `Value` de la `Key` `Token`
+1. Ouvre Discord dans ton navigateur ([discord.com](https://discord.app/)) et connecte-toi.
+2. Appuie sur `F12` (ou `Ctrl + Maj + I`) pour ouvrir les outils de développement.
+3. Activee le mode mobile (`Ctrl + Maj + M` ou 📱 en haut à gauche).
+4. Recharge la page (`F5`)
+5. Va dans : `Application -> Local storage -> https://discord.com`
+6. Dans le champ `Filter`, tape `token`.
+7. Copie la valeur (colonne `Value`) de la clé `token`.
 
 ---
 
